@@ -1,0 +1,16 @@
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:[m[K In member function '[01m[Kvoid wall_avoidance::move_robot()[m[K':
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:43:32:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Krobot_publisher[m[K'
+   43 |         twist_val.angular.z = 0
+      |                                [01;31m[K^[m[K
+      |                                [32m[K;[m[K
+   44 |         [32m[Krobot_publisher[m[K.publish(twist_val);
+      |         [32m[K~~~~~~~~~~~~~~~[m[K         
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:49:35:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K;[m[K' before '[01m[Krobot_publisher[m[K'
+   49 |          twist_val.angular.z = 0.5
+      |                                   [01;31m[K^[m[K
+      |                                   [32m[K;[m[K
+   50 |          [32m[Krobot_publisher[m[K.publish(twist_val);
+      |          [32m[K~~~~~~~~~~~~~~~[m[K           
+make[2]: *** [CMakeFiles/move_robot.dir/build.make:63: CMakeFiles/move_robot.dir/src/move_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/move_robot.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

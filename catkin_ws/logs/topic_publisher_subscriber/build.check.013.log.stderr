@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/topic_publisher_subscriber/CMakeLists.txt:171 (add_dependencies):
+  Cannot add target-level dependencies to non-existent target "publish_age".
+
+  The add_dependencies works for top-level logical targets created by the
+  add_executable, add_library, or add_custom_target commands.  If you want to
+  add file-level dependencies see the DEPENDS option of the add_custom_target
+  and add_custom_command commands.
+
+
+make: *** [Makefile:742: cmake_check_build_system] Error 1

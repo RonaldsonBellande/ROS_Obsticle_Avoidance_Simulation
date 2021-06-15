@@ -1,0 +1,7 @@
+[01m[K/home/user/catkin_ws/src/my_package/src/simple_program.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/user/catkin_ws/src/my_package/src/simple_program.cpp:9:3:[m[K [01;31m[Kerror: [m[Kexpected '[01m[K,[m[K' or '[01m[K;[m[K' before '[01m[Kwhile[m[K'
+    9 |   [01;31m[Kwhile[m[K(ros::ok()){
+      |   [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/simple_program.dir/build.make:63: CMakeFiles/simple_program.dir/src/simple_program.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/simple_program.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

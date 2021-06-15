@@ -1,0 +1,1 @@
+/home/user/catkin_ws/devel/.private/topic_publisher_subscriber/share/gennodejs/ros/topic_publisher_subscriber/_index.js

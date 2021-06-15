@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="topic_publisher_package" type="topic_program" name="topic_program" output="screen">
+    </node>
+
+</launch>

@@ -1,0 +1,6 @@
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:1:2:[m[K [01;35m[Kwarning: [m[K#import is a deprecated GCC extension [[01;35m[K-Wdeprecated[m[K]
+    1 | #[01;35m[Kimport[m[K <ros/ros.h>
+      |  [01;35m[K^~~~~~[m[K
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:2:2:[m[K [01;35m[Kwarning: [m[K#import is a deprecated GCC extension [[01;35m[K-Wdeprecated[m[K]
+    2 | #[01;35m[Kimport[m[K <std_msgs/Int32.h>
+      |  [01;35m[K^~~~~~[m[K

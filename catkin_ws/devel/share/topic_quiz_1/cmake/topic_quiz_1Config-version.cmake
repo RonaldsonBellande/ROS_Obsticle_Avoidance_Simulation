@@ -1,0 +1,1 @@
+/home/user/catkin_ws/devel/.private/topic_quiz_1/share/topic_quiz_1/cmake/topic_quiz_1Config-version.cmake

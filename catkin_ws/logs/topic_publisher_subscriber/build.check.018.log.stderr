@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/topic_publisher_subscriber/CMakeLists.txt:186 (add_executable):
+  Cannot find source file:
+
+    src/publish_age.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/user/catkin_ws/src/topic_publisher_subscriber/CMakeLists.txt:186 (add_executable):
+  No SOURCES given to target: publish_age
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:742: cmake_check_build_system] Error 1

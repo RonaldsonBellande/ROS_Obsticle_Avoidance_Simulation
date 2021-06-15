@@ -1,0 +1,10 @@
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:[m[K In member function '[01m[Kvoid wall_avoidance::move_robot()[m[K':
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:40:22:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::LaserScan[m[K' {aka '[01m[Ksensor_msgs::LaserScan_<std::allocator<void> >[m[K'}
+   40 |     if(laser_scan_val[01;31m[K->[m[Kranges[180] > 1 && laser_scan_val->ranges[180] > 1){
+      |                      [01;31m[K^~[m[K
+[01m[K/home/user/catkin_ws/src/topic_quiz_1/src/move_robot.cpp:40:57:[m[K [01;31m[Kerror: [m[Kbase operand of '[01m[K->[m[K' has non-pointer type '[01m[Ksensor_msgs::LaserScan[m[K' {aka '[01m[Ksensor_msgs::LaserScan_<std::allocator<void> >[m[K'}
+   40 |     if(laser_scan_val->ranges[180] > 1 && laser_scan_val[01;31m[K->[m[Kranges[180] > 1){
+      |                                                         [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/move_robot.dir/build.make:63: CMakeFiles/move_robot.dir/src/move_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/move_robot.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
