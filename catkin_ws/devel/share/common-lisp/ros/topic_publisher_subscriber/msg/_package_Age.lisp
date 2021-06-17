@@ -1,1 +1,8 @@
-/home/user/catkin_ws/devel/.private/topic_publisher_subscriber/share/common-lisp/ros/topic_publisher_subscriber/msg/_package_Age.lisp
+(cl:in-package topic_publisher_subscriber-msg)
+(cl:export '(YEARS-VAL
+          YEARS
+          MONTHS-VAL
+          MONTHS
+          DAYS-VAL
+          DAYS
+))

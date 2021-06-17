@@ -168,7 +168,7 @@ target_link_libraries(subscriber_program
   ${catkin_LIBRARIES}
 )
 
-add_dependencies(subscriber_program topic_ex_generate_messages_cpp)
+#add_dependencies(subscriber_program topic_ex_generate_messages_cpp)
 
 #############
 ## Install ##

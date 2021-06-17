@@ -1,4 +1,4 @@
-prefix=/home/user/catkin_ws/install
+prefix=/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/install
 
 Name: topic_quiz_1
 Description: Description of topic_quiz_1

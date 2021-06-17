@@ -1,8 +1,0 @@
-[01m[K/home/user/catkin_ws/src/topic_publisher_subscriber/src/subscriber_program.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
-[01m[K/home/user/catkin_ws/src/topic_publisher_subscriber/src/subscriber_program.cpp:12:30:[m[K [01;31m[Kerror: [m[K'[01m[Kclass ros::NodeHandle[m[K' has no member named '[01m[Ksubscriber[m[K'; did you mean '[01m[Ksubscribe[m[K'?
-   12 |     ros::Subscriber sub = nh.[01;31m[Ksubscriber[m[K("counter", 1000, counterCallback);
-      |                              [01;31m[K^~~~~~~~~~[m[K
-      |                              [32m[Ksubscribe[m[K
-make[2]: *** [CMakeFiles/subscriber_program.dir/build.make:63: CMakeFiles/subscriber_program.dir/src/subscriber_program.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:304: CMakeFiles/subscriber_program.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

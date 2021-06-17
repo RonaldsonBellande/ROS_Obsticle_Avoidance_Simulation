@@ -1,1 +1,8 @@
-/home/user/catkin_ws/devel/.private/topic_publisher_subscriber/share/gennodejs/ros/topic_publisher_subscriber/msg/_index.js
+
+"use strict";
+
+let Age = require('./Age.js');
+
+module.exports = {
+  Age: Age,
+};

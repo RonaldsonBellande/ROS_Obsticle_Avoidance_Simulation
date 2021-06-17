@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/catkin_ws/devel/.private/topic_publisher_subscriber/lib/topic_publisher_subscriber/subscriber_program"
-  "/home/user/catkin_ws/devel/.private/topic_publisher_subscriber/lib/topic_publisher_subscriber/subscriber_program.pdb"
+  "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel/lib/topic_publisher_subscriber/subscriber_program"
+  "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel/lib/topic_publisher_subscriber/subscriber_program.pdb"
   "CMakeFiles/subscriber_program.dir/src/subscriber_program.cpp.o"
 )
 

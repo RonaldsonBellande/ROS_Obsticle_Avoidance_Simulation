@@ -67,14 +67,14 @@ set(my_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_package_SOURCE_PREFIX /home/user/catkin_ws/src/my_package)
-  set(my_package_DEVEL_PREFIX /home/user/catkin_ws/devel/.private/my_package)
+  set(my_package_SOURCE_PREFIX /home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/src/my_package)
+  set(my_package_DEVEL_PREFIX /home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel)
   set(my_package_INSTALL_PREFIX "")
   set(my_package_PREFIX ${my_package_DEVEL_PREFIX})
 else()
   set(my_package_SOURCE_PREFIX "")
   set(my_package_DEVEL_PREFIX "")
-  set(my_package_INSTALL_PREFIX /home/user/catkin_ws/install)
+  set(my_package_INSTALL_PREFIX /home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/install)
   set(my_package_PREFIX ${my_package_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/user/catkin_ws/install/lib;/home/user/catkin_ws/devel/lib;/home/simulations/public_sim_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -211,7 +211,7 @@ foreach(depend ${depends})
   _unpack_libraries_with_build_configuration(my_package_LIBRARIES ${my_package_LIBRARIES})
 
   _list_append_unique(my_package_LIBRARY_DIRS ${${my_package_dep}_LIBRARY_DIRS})
-  list(APPEND my_package_EXPORTED_TARGETS ${${my_package_dep}_EXPORTED_TARGETS})
+  _list_append_deduplicate(my_package_EXPORTED_TARGETS ${${my_package_dep}_EXPORTED_TARGETS})
 endforeach()
 
 set(pkg_cfg_extras "")
