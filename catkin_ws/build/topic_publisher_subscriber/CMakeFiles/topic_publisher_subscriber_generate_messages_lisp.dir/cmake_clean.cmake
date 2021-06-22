@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel/share/common-lisp/ros/topic_publisher_subscriber/msg/Age.lisp"
+  "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_publisher_subscriber/share/common-lisp/ros/topic_publisher_subscriber/msg/Age.lisp"
   "CMakeFiles/topic_publisher_subscriber_generate_messages_lisp"
 )
 

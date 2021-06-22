@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "topic_publisher_package"
-PROJECT_SPACE_DIR = "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel"
+PROJECT_SPACE_DIR = "/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_publisher_package"
 PROJECT_VERSION = "0.0.0"

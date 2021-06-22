@@ -1,8 +1,1 @@
-(cl:in-package topic_publisher_subscriber-msg)
-(cl:export '(YEARS-VAL
-          YEARS
-          MONTHS-VAL
-          MONTHS
-          DAYS-VAL
-          DAYS
-))
+/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_publisher_subscriber/share/common-lisp/ros/topic_publisher_subscriber/msg/_package_Age.lisp

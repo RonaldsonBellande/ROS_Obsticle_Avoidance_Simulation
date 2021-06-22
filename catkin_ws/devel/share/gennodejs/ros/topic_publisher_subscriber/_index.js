@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_publisher_subscriber/share/gennodejs/ros/topic_publisher_subscriber/_index.js

@@ -1,8 +1,1 @@
-prefix=/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel
-
-Name: topic_publisher_package
-Description: Description of topic_publisher_package
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_publisher_package/lib/pkgconfig/topic_publisher_package.pc

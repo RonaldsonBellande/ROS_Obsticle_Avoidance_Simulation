@@ -1,8 +1,1 @@
-prefix=/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance/catkin_ws/devel
-
-Name: topic_quiz_1
-Description: Description of topic_quiz_1
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+/home/ronaldsonbellande/Desktop/ROS_Robotic_Movements/ROS_obsticle_avoidance_Simulation/catkin_ws/devel/.private/topic_quiz_1/lib/pkgconfig/topic_quiz_1.pc
